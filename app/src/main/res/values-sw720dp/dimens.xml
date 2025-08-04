@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding">20dp</dimen>
-    <dimen name="height">130dp</dimen>
-    <dimen name="width">350dp</dimen>
-    <dimen name="text">40sp</dimen>
+    <item name="second_layout" type="layout">@layout/activity_main2</item>
+    <dimen name="padding">50dp</dimen>
+    <dimen name="height">200dp</dimen>
+    <dimen name="width">500dp</dimen>
+    <dimen name="text">70sp</dimen>
 </resources>
