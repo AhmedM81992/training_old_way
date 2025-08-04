@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Training OldWay</string>
+    <string name="button1">APP01</string>
+    <string name="button2">APP02</string>
+    <string name="button3">APP03</string>
+    <string name="button4">APP04</string>
+    <string name="health_check">Health Check</string>
+</resources>
