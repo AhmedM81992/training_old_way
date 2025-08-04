@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         val titleColor = resources.getColor(R.color.white)
-        var titleText = resources.getString(R.string.health_check)
-        binding.button1.text = titleText
+        val titleText = resources.getString(R.string.health_check)
+        binding.textView.text = titleText
+        binding.textView.setTextColor(titleColor)
     }
 }

@@ -15,12 +15,12 @@
         android:layout_centerHorizontal="true"
         android:background="@color/skyBlue"
         android:layout_alignParentTop="true"
-        android:padding="10dp">
+        android:padding="@dimen/padding">
 
         <TextView
             android:id="@+id/textView"
-
-
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -41,7 +41,7 @@
         android:id="@+id/button2"
         android:layout_width="415dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/button1"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
